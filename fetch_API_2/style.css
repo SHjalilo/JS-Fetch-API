@@ -4,10 +4,13 @@
   padding: 0;
   margin: 0;
 }
+h3{
+  color: #E3B448 ;
+}
 body{
-  background-color: rgb(30,0,77);
+  background-color: #CBD18F; /*rgb(30,0,77);*/
   font-family: 'Poppins', sans-serif;
-  color: #E3B448;
+  color: black; //CBD18F  E3B448
 }
 .container{
   display: flex;
@@ -15,7 +18,7 @@ body{
 .left-con{
   background-color: #CBD18F;
   width: 30%;
-  height: 600px;
+  height: 100%;
 }
 .left{
   background-color: #CBD18F;
@@ -28,7 +31,7 @@ body{
 .right-con{
   background-color: #CBD18F;
   width: 70%;
-  height: 600px;
+  height: 100%;
 }
 .right{
   background-color: #CBD18F;
